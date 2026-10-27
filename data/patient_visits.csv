@@ -1,0 +1,501 @@
+visit_id,patient_id,doctor_id,hospital_id,date_id,visit_type,visit_status,treatment_cost,length_of_stay_days
+1,87,10,1,169,Preventive Care,Cancelled,9686.23,6
+2,125,14,1,317,Consultation,Completed,15889.68,5
+3,59,12,5,51,Preventive Care,Cancelled,21852.71,8
+4,43,12,5,15,Consultation,Scheduled,19964.74,5
+5,92,6,5,126,Emergency,Scheduled,14278.42,3
+6,44,3,1,196,Emergency,Cancelled,6248.5,10
+7,37,4,5,131,Follow-up,Scheduled,16770.97,8
+8,74,11,5,38,Follow-up,Scheduled,24695.0,5
+9,109,12,5,155,Lab Test,Scheduled,21377.39,2
+10,61,7,4,295,Surgery,Cancelled,7592.2,11
+11,102,5,5,352,Preventive Care,Completed,22792.24,12
+12,128,14,3,118,Emergency,Scheduled,5709.41,4
+13,65,11,2,322,Consultation,Cancelled,16264.61,5
+14,113,1,2,68,Consultation,Scheduled,8369.96,7
+15,45,4,5,277,Surgery,Cancelled,12694.33,5
+16,43,5,4,152,Preventive Care,Scheduled,20164.54,8
+17,20,3,2,347,Preventive Care,Cancelled,24504.57,9
+18,94,2,1,136,Emergency,Completed,11533.21,11
+19,68,10,5,327,Surgery,Completed,16968.46,8
+20,7,10,5,168,Emergency,Completed,16297.01,11
+21,119,15,4,60,Lab Test,Completed,23672.66,5
+22,127,2,5,276,Lab Test,Scheduled,11505.0,11
+23,139,7,4,80,Follow-up,Cancelled,2745.83,8
+24,105,5,5,190,Lab Test,Scheduled,11283.99,4
+25,93,2,3,279,Preventive Care,Scheduled,1795.59,5
+26,49,2,4,47,Preventive Care,Completed,16150.1,10
+27,6,1,2,65,Emergency,Completed,1994.67,9
+28,54,10,5,120,Surgery,Completed,19779.5,10
+29,1,5,2,67,Emergency,Scheduled,20023.29,2
+30,7,3,1,122,Emergency,Scheduled,689.79,5
+31,14,3,5,59,Preventive Care,Completed,12063.28,6
+32,132,10,5,258,Lab Test,Cancelled,1371.12,11
+33,134,5,5,16,Consultation,Scheduled,21228.27,7
+34,28,8,4,38,Consultation,Scheduled,15324.95,2
+35,33,5,5,281,Preventive Care,Scheduled,9708.34,10
+36,136,5,5,310,Follow-up,Completed,19889.47,2
+37,142,12,4,232,Lab Test,Scheduled,8671.61,8
+38,103,7,3,219,Surgery,Cancelled,6595.78,3
+39,122,2,5,44,Consultation,Scheduled,2685.14,12
+40,96,13,1,31,Emergency,Cancelled,14173.58,11
+41,32,7,4,341,Follow-up,Cancelled,1570.72,5
+42,80,6,5,260,Lab Test,Completed,16521.39,4
+43,28,6,3,59,Surgery,Cancelled,5886.13,7
+44,144,13,5,346,Preventive Care,Cancelled,948.47,11
+45,69,1,2,360,Surgery,Scheduled,8970.28,3
+46,37,10,1,73,Preventive Care,Cancelled,24303.71,2
+47,136,4,5,233,Surgery,Completed,9440.31,12
+48,84,13,5,44,Consultation,Completed,4188.02,10
+49,13,11,5,227,Preventive Care,Scheduled,12295.84,8
+50,107,5,5,263,Consultation,Scheduled,10918.87,5
+51,125,9,1,113,Follow-up,Cancelled,1653.11,4
+52,78,4,3,149,Surgery,Completed,490.93,12
+53,111,3,1,273,Preventive Care,Completed,12656.48,11
+54,91,2,5,22,Follow-up,Completed,11655.93,2
+55,81,10,5,208,Preventive Care,Cancelled,10617.04,2
+56,104,1,2,317,Follow-up,Cancelled,23018.31,2
+57,112,14,1,224,Emergency,Scheduled,13241.87,7
+58,80,12,5,171,Lab Test,Completed,12908.94,2
+59,136,9,4,179,Surgery,Cancelled,23968.12,11
+60,38,4,5,132,Lab Test,Completed,15179.25,11
+61,20,3,4,238,Emergency,Cancelled,11387.96,10
+62,83,14,3,78,Follow-up,Completed,11882.35,11
+63,78,13,1,29,Surgery,Cancelled,2132.51,8
+64,116,1,2,147,Consultation,Cancelled,21646.98,2
+65,130,7,4,284,Preventive Care,Completed,11408.42,10
+66,49,6,5,78,Consultation,Scheduled,2856.5,6
+67,22,9,1,127,Preventive Care,Scheduled,24777.35,9
+68,134,10,5,191,Surgery,Scheduled,10396.6,6
+69,14,13,3,34,Surgery,Completed,14081.69,7
+70,73,5,5,77,Surgery,Completed,14693.67,3
+71,90,5,4,67,Emergency,Cancelled,23468.65,5
+72,144,7,3,66,Preventive Care,Cancelled,20775.29,12
+73,135,2,4,261,Surgery,Completed,9256.16,3
+74,55,6,4,99,Lab Test,Completed,4127.15,5
+75,26,9,5,20,Preventive Care,Scheduled,21946.9,10
+76,34,10,5,84,Lab Test,Cancelled,19346.12,3
+77,113,1,2,347,Preventive Care,Completed,24248.84,10
+78,73,13,4,120,Emergency,Completed,7943.86,8
+79,50,6,5,226,Follow-up,Scheduled,19519.66,9
+80,136,7,2,310,Lab Test,Scheduled,1588.84,8
+81,96,9,5,64,Surgery,Completed,19148.99,5
+82,116,15,3,224,Consultation,Completed,20472.57,6
+83,7,7,4,258,Surgery,Completed,9838.3,2
+84,96,4,5,51,Preventive Care,Cancelled,8581.67,3
+85,36,1,2,242,Preventive Care,Completed,19043.38,8
+86,115,10,5,41,Consultation,Scheduled,5626.67,3
+87,141,12,4,57,Surgery,Completed,7738.43,1
+88,62,7,5,235,Consultation,Completed,20966.19,8
+89,138,1,5,124,Preventive Care,Completed,7494.42,1
+90,91,4,5,96,Preventive Care,Cancelled,2414.66,6
+91,18,9,4,260,Emergency,Completed,9944.21,8
+92,12,11,5,192,Surgery,Cancelled,701.18,2
+93,89,4,1,298,Preventive Care,Scheduled,3595.22,6
+94,140,6,2,351,Follow-up,Cancelled,12119.72,3
+95,35,2,4,19,Surgery,Completed,1382.02,4
+96,11,6,5,204,Emergency,Scheduled,6556.85,11
+97,49,5,5,25,Preventive Care,Scheduled,7048.45,6
+98,112,15,3,226,Follow-up,Scheduled,24350.97,8
+99,128,6,5,137,Consultation,Cancelled,10785.14,7
+100,47,9,4,53,Consultation,Scheduled,16624.7,5
+101,115,10,2,354,Follow-up,Scheduled,11344.1,12
+102,91,10,3,328,Consultation,Completed,16878.24,7
+103,94,9,2,16,Lab Test,Cancelled,17048.8,8
+104,9,3,1,331,Surgery,Scheduled,9756.5,10
+105,9,10,5,231,Surgery,Scheduled,11265.3,2
+106,147,3,1,204,Surgery,Cancelled,7183.64,2
+107,7,12,5,266,Follow-up,Cancelled,3208.7,5
+108,115,4,3,356,Follow-up,Completed,3329.14,2
+109,116,3,4,45,Preventive Care,Scheduled,16795.64,12
+110,17,9,4,154,Lab Test,Cancelled,17826.23,12
+111,45,13,1,115,Consultation,Completed,19864.02,4
+112,127,1,2,294,Surgery,Scheduled,20150.44,9
+113,34,10,1,159,Follow-up,Cancelled,18056.08,9
+114,106,13,1,295,Consultation,Completed,24317.78,11
+115,19,8,2,265,Surgery,Completed,21985.62,9
+116,47,13,4,258,Consultation,Completed,13097.12,5
+117,43,3,1,364,Lab Test,Scheduled,23702.83,9
+118,73,14,1,101,Preventive Care,Cancelled,7078.94,11
+119,78,10,5,258,Preventive Care,Completed,14917.67,10
+120,40,3,5,173,Emergency,Completed,20683.34,1
+121,21,1,5,136,Preventive Care,Completed,19243.89,7
+122,8,8,5,149,Preventive Care,Scheduled,12228.74,11
+123,104,5,5,353,Consultation,Completed,11158.26,8
+124,119,4,5,74,Surgery,Cancelled,8187.11,6
+125,103,3,5,288,Consultation,Scheduled,6270.93,2
+126,69,8,2,50,Consultation,Scheduled,23651.01,10
+127,108,4,2,168,Emergency,Cancelled,8024.06,3
+128,128,9,4,158,Follow-up,Completed,2524.21,7
+129,130,8,2,299,Surgery,Completed,1548.35,8
+130,121,5,5,56,Follow-up,Completed,22096.66,12
+131,94,13,1,24,Follow-up,Completed,14385.96,4
+132,93,9,4,198,Emergency,Scheduled,19180.78,5
+133,31,3,4,192,Surgery,Cancelled,23492.03,3
+134,51,10,5,257,Consultation,Completed,1261.17,12
+135,86,13,1,234,Lab Test,Cancelled,22360.35,3
+136,84,15,2,202,Emergency,Cancelled,21112.27,10
+137,87,9,5,251,Preventive Care,Cancelled,7704.83,1
+138,95,6,4,299,Surgery,Cancelled,21840.85,11
+139,7,10,5,336,Emergency,Cancelled,5920.32,1
+140,150,8,2,323,Preventive Care,Cancelled,19432.77,7
+141,38,14,1,294,Preventive Care,Completed,5012.37,8
+142,81,7,4,354,Lab Test,Scheduled,12694.94,10
+143,121,14,1,362,Lab Test,Cancelled,5421.34,6
+144,123,9,4,89,Follow-up,Cancelled,8755.48,6
+145,68,10,5,127,Surgery,Cancelled,7672.93,5
+146,74,12,5,361,Follow-up,Scheduled,12151.14,9
+147,71,5,5,347,Emergency,Scheduled,22425.28,7
+148,89,13,3,22,Surgery,Cancelled,2252.03,8
+149,66,12,5,104,Emergency,Scheduled,23345.69,12
+150,70,3,1,301,Lab Test,Completed,1553.91,9
+151,58,11,5,52,Follow-up,Scheduled,18018.74,2
+152,36,1,2,209,Preventive Care,Scheduled,12092.98,4
+153,74,6,5,31,Consultation,Cancelled,14481.09,9
+154,10,15,4,91,Consultation,Scheduled,19762.63,3
+155,75,15,3,153,Emergency,Cancelled,2950.33,6
+156,73,8,5,269,Follow-up,Completed,21321.18,8
+157,70,4,3,84,Preventive Care,Scheduled,16312.65,12
+158,48,1,3,291,Preventive Care,Completed,4634.72,11
+159,104,14,1,168,Consultation,Scheduled,16830.62,3
+160,36,8,2,128,Consultation,Scheduled,9774.29,8
+161,69,6,5,294,Consultation,Scheduled,16445.98,12
+162,61,1,4,158,Lab Test,Scheduled,17246.02,12
+163,80,12,5,152,Surgery,Cancelled,5754.98,3
+164,123,3,1,311,Surgery,Scheduled,17637.94,8
+165,138,13,2,127,Preventive Care,Cancelled,21866.44,2
+166,135,8,2,186,Consultation,Cancelled,3071.56,9
+167,130,4,5,77,Lab Test,Scheduled,21405.8,8
+168,30,11,5,299,Follow-up,Completed,22502.57,8
+169,15,8,2,213,Follow-up,Cancelled,1726.1,8
+170,79,12,5,131,Consultation,Cancelled,5682.16,2
+171,12,7,4,33,Emergency,Completed,23384.2,2
+172,121,1,2,93,Lab Test,Cancelled,24464.83,11
+173,108,6,4,230,Follow-up,Scheduled,2282.17,11
+174,139,3,3,61,Lab Test,Cancelled,10008.55,3
+175,58,14,1,12,Surgery,Scheduled,16935.45,9
+176,109,9,4,118,Lab Test,Scheduled,8850.15,5
+177,49,15,1,17,Preventive Care,Scheduled,15488.6,1
+178,62,4,5,305,Consultation,Scheduled,15065.29,12
+179,13,4,4,225,Lab Test,Cancelled,5666.55,1
+180,36,9,2,295,Surgery,Cancelled,15068.57,11
+181,83,4,5,74,Preventive Care,Cancelled,5759.76,5
+182,71,1,2,303,Preventive Care,Completed,15762.03,7
+183,143,8,2,177,Preventive Care,Cancelled,9714.52,9
+184,82,12,5,77,Surgery,Scheduled,4841.81,9
+185,122,4,3,363,Lab Test,Scheduled,22894.11,9
+186,106,7,4,69,Follow-up,Completed,6598.39,6
+187,21,15,3,190,Consultation,Cancelled,18197.24,4
+188,14,5,5,310,Emergency,Completed,21878.43,4
+189,144,4,5,171,Surgery,Completed,5531.65,4
+190,31,12,4,125,Preventive Care,Cancelled,17683.08,7
+191,62,9,4,145,Follow-up,Scheduled,13481.16,6
+192,79,5,5,255,Follow-up,Completed,20129.57,12
+193,121,13,2,190,Surgery,Scheduled,1429.17,4
+194,38,1,2,300,Emergency,Cancelled,10614.18,3
+195,51,6,5,292,Lab Test,Scheduled,13900.87,11
+196,87,5,4,329,Preventive Care,Scheduled,11682.48,12
+197,91,3,1,280,Follow-up,Completed,22947.41,9
+198,16,9,4,39,Preventive Care,Completed,19179.17,7
+199,36,14,1,363,Lab Test,Completed,5702.38,8
+200,96,1,5,248,Preventive Care,Scheduled,688.57,9
+201,142,7,4,272,Preventive Care,Scheduled,13532.73,5
+202,5,9,4,92,Consultation,Completed,13252.32,4
+203,50,10,5,182,Surgery,Scheduled,2251.78,7
+204,118,10,5,357,Lab Test,Scheduled,17195.83,2
+205,9,2,5,194,Emergency,Scheduled,1686.04,1
+206,44,2,5,223,Preventive Care,Scheduled,14276.66,2
+207,136,15,3,109,Preventive Care,Cancelled,12044.86,1
+208,20,11,5,289,Preventive Care,Completed,4730.06,6
+209,5,4,5,365,Follow-up,Completed,7692.14,10
+210,62,10,4,347,Emergency,Scheduled,9781.0,12
+211,36,13,1,257,Preventive Care,Scheduled,1626.3,7
+212,60,14,1,310,Emergency,Cancelled,10098.57,6
+213,8,11,5,231,Follow-up,Completed,9088.54,7
+214,111,3,4,44,Emergency,Scheduled,20011.96,12
+215,19,2,5,195,Preventive Care,Cancelled,4110.64,7
+216,82,6,5,3,Surgery,Scheduled,9189.96,5
+217,27,3,1,221,Follow-up,Cancelled,14002.08,7
+218,27,1,2,284,Consultation,Cancelled,15071.68,6
+219,99,1,2,199,Consultation,Cancelled,22558.06,4
+220,147,9,4,195,Lab Test,Completed,6942.3,5
+221,127,3,1,223,Surgery,Scheduled,7703.88,2
+222,93,5,4,305,Emergency,Completed,11609.18,3
+223,78,1,3,318,Follow-up,Scheduled,11173.51,7
+224,35,5,5,356,Lab Test,Scheduled,8060.33,7
+225,82,5,4,295,Lab Test,Scheduled,9588.57,7
+226,94,2,2,304,Emergency,Completed,17138.3,9
+227,7,12,5,363,Lab Test,Scheduled,20002.83,12
+228,18,14,4,345,Follow-up,Completed,15943.4,4
+229,65,11,5,217,Follow-up,Completed,11391.95,10
+230,123,10,5,260,Preventive Care,Scheduled,13728.04,6
+231,138,10,1,56,Lab Test,Cancelled,16717.94,3
+232,12,10,4,170,Follow-up,Completed,560.53,5
+233,57,9,5,298,Preventive Care,Cancelled,5759.48,6
+234,101,8,5,354,Emergency,Completed,8820.69,1
+235,124,2,5,44,Consultation,Cancelled,3799.38,5
+236,88,8,5,248,Surgery,Scheduled,2711.29,12
+237,116,6,5,23,Preventive Care,Completed,857.85,6
+238,28,11,2,265,Lab Test,Cancelled,4255.35,9
+239,110,8,2,208,Preventive Care,Completed,4903.76,11
+240,111,7,4,315,Lab Test,Scheduled,14927.42,7
+241,2,12,5,143,Preventive Care,Completed,14560.49,9
+242,48,6,5,235,Consultation,Scheduled,16866.33,8
+243,136,11,5,199,Emergency,Scheduled,14799.02,6
+244,91,14,1,89,Preventive Care,Cancelled,20075.15,10
+245,22,11,5,61,Lab Test,Scheduled,3188.64,6
+246,37,9,4,306,Lab Test,Cancelled,9777.64,3
+247,125,11,5,331,Lab Test,Cancelled,4421.58,5
+248,36,3,1,231,Emergency,Completed,21678.4,1
+249,125,3,1,197,Emergency,Cancelled,16430.82,7
+250,126,7,4,251,Lab Test,Completed,14265.33,4
+251,75,1,2,276,Surgery,Completed,19584.28,10
+252,127,9,4,294,Consultation,Scheduled,19445.29,6
+253,139,14,4,280,Lab Test,Scheduled,2829.69,11
+254,64,5,1,231,Surgery,Scheduled,21596.33,2
+255,113,14,2,108,Preventive Care,Cancelled,17321.6,12
+256,110,3,2,106,Consultation,Cancelled,8965.14,5
+257,138,3,1,361,Surgery,Scheduled,14446.57,9
+258,25,3,4,31,Surgery,Cancelled,3434.14,3
+259,64,3,2,347,Follow-up,Scheduled,3811.64,11
+260,69,11,5,232,Consultation,Cancelled,19926.59,2
+261,104,9,3,233,Follow-up,Scheduled,14674.3,12
+262,24,12,3,33,Emergency,Scheduled,5680.4,7
+263,55,8,2,146,Surgery,Cancelled,14574.96,10
+264,125,13,1,350,Consultation,Completed,2759.5,8
+265,5,2,2,226,Follow-up,Completed,24798.4,7
+266,52,12,3,82,Surgery,Completed,16468.32,5
+267,22,6,2,27,Follow-up,Cancelled,7846.08,12
+268,60,7,1,1,Lab Test,Scheduled,2225.09,10
+269,58,9,1,5,Preventive Care,Scheduled,20482.59,7
+270,34,8,2,197,Consultation,Cancelled,20207.13,2
+271,81,6,2,196,Lab Test,Cancelled,24825.62,3
+272,18,9,4,313,Preventive Care,Completed,11170.46,12
+273,55,11,4,316,Preventive Care,Scheduled,21541.07,2
+274,26,3,5,197,Surgery,Scheduled,8068.24,3
+275,64,5,2,284,Emergency,Cancelled,18113.14,5
+276,7,14,3,106,Emergency,Cancelled,12885.21,12
+277,101,5,2,254,Follow-up,Completed,6254.72,11
+278,19,9,1,185,Surgery,Completed,9854.9,10
+279,108,6,5,89,Follow-up,Completed,712.23,2
+280,4,5,5,31,Follow-up,Cancelled,7376.25,12
+281,129,13,1,360,Follow-up,Completed,16121.27,9
+282,40,5,5,41,Emergency,Completed,24365.54,3
+283,138,6,5,325,Preventive Care,Cancelled,16185.92,5
+284,112,12,2,30,Lab Test,Completed,23138.31,2
+285,117,10,3,342,Preventive Care,Cancelled,18594.26,2
+286,4,12,5,6,Lab Test,Scheduled,23839.5,9
+287,133,13,3,86,Surgery,Completed,18819.48,5
+288,31,13,3,220,Surgery,Cancelled,1877.64,12
+289,148,11,5,234,Emergency,Scheduled,1669.35,10
+290,43,6,5,53,Emergency,Cancelled,18152.63,4
+291,131,1,2,7,Lab Test,Completed,11952.59,7
+292,39,3,1,284,Preventive Care,Cancelled,16495.87,4
+293,83,4,5,164,Surgery,Completed,14416.94,2
+294,129,11,2,115,Emergency,Completed,23865.76,2
+295,120,14,1,160,Surgery,Completed,13961.36,1
+296,95,4,5,156,Preventive Care,Cancelled,6291.82,6
+297,127,13,5,126,Lab Test,Completed,23330.22,1
+298,60,9,4,356,Consultation,Scheduled,336.11,11
+299,97,14,3,54,Lab Test,Cancelled,24582.96,7
+300,126,1,2,365,Surgery,Completed,1384.34,4
+301,134,7,3,235,Preventive Care,Completed,14645.03,9
+302,35,11,1,304,Emergency,Completed,11044.08,3
+303,61,5,5,162,Follow-up,Cancelled,20847.93,6
+304,82,8,2,39,Lab Test,Completed,19564.44,10
+305,28,3,1,231,Follow-up,Scheduled,10340.86,9
+306,92,13,1,158,Follow-up,Scheduled,21356.31,2
+307,41,13,5,21,Lab Test,Scheduled,3963.6,12
+308,64,6,5,26,Preventive Care,Scheduled,6726.12,3
+309,8,7,5,282,Lab Test,Completed,11712.47,3
+310,32,1,2,114,Lab Test,Completed,20644.73,6
+311,22,10,5,39,Consultation,Completed,5184.43,11
+312,114,13,1,170,Consultation,Completed,23574.33,1
+313,44,15,3,203,Follow-up,Completed,9753.42,7
+314,45,6,5,96,Surgery,Scheduled,11316.48,3
+315,9,10,2,332,Surgery,Scheduled,10476.21,9
+316,123,1,2,197,Lab Test,Scheduled,5226.61,9
+317,64,11,5,10,Follow-up,Cancelled,9170.07,9
+318,125,6,5,165,Follow-up,Scheduled,4741.45,6
+319,57,1,3,30,Follow-up,Cancelled,9128.59,10
+320,60,3,1,337,Lab Test,Scheduled,13482.13,12
+321,15,13,2,295,Follow-up,Scheduled,23399.59,3
+322,46,4,5,358,Surgery,Cancelled,996.7,12
+323,91,10,5,289,Lab Test,Scheduled,13690.48,3
+324,126,1,2,120,Emergency,Completed,792.22,8
+325,1,6,2,67,Surgery,Cancelled,4683.26,6
+326,16,1,2,361,Lab Test,Completed,21208.08,6
+327,19,6,4,301,Consultation,Scheduled,7753.6,3
+328,41,12,4,333,Surgery,Completed,17767.42,9
+329,92,4,2,194,Surgery,Cancelled,17305.91,3
+330,46,12,5,360,Emergency,Scheduled,21313.7,10
+331,9,3,5,114,Preventive Care,Cancelled,2871.52,8
+332,37,6,2,178,Surgery,Completed,16013.81,2
+333,86,8,2,108,Lab Test,Cancelled,1974.53,5
+334,28,12,5,198,Follow-up,Cancelled,10665.43,3
+335,106,8,3,280,Follow-up,Completed,20771.53,10
+336,58,3,1,18,Surgery,Completed,8172.31,2
+337,19,6,5,193,Lab Test,Cancelled,2152.56,2
+338,87,10,4,361,Consultation,Scheduled,23578.32,3
+339,112,3,1,170,Lab Test,Completed,10409.21,9
+340,139,5,3,122,Consultation,Completed,10004.68,9
+341,126,3,1,2,Follow-up,Completed,7575.37,11
+342,123,4,5,106,Lab Test,Cancelled,7507.74,2
+343,122,14,1,204,Follow-up,Scheduled,22403.47,5
+344,24,11,5,95,Surgery,Scheduled,9424.22,8
+345,12,5,5,135,Lab Test,Scheduled,14236.89,3
+346,25,2,5,212,Emergency,Completed,13973.97,7
+347,134,7,4,294,Lab Test,Scheduled,7681.65,7
+348,9,9,4,265,Emergency,Cancelled,24574.04,3
+349,31,13,1,86,Lab Test,Completed,3416.79,7
+350,21,11,5,322,Lab Test,Cancelled,6669.79,12
+351,18,2,5,204,Emergency,Scheduled,21458.62,9
+352,118,15,5,301,Emergency,Scheduled,3079.22,3
+353,38,10,5,52,Consultation,Cancelled,19554.75,5
+354,138,15,3,211,Surgery,Scheduled,16473.26,10
+355,122,1,2,207,Lab Test,Cancelled,15333.79,12
+356,103,1,2,170,Preventive Care,Completed,1517.49,8
+357,69,15,3,173,Surgery,Scheduled,7224.56,8
+358,26,14,1,154,Preventive Care,Scheduled,19418.56,6
+359,69,12,5,331,Consultation,Completed,11210.4,7
+360,125,13,1,192,Consultation,Cancelled,19849.81,2
+361,80,12,5,70,Emergency,Cancelled,1015.02,4
+362,52,14,1,17,Follow-up,Completed,22975.37,12
+363,51,5,5,238,Emergency,Scheduled,15994.62,2
+364,8,4,5,305,Follow-up,Completed,24024.85,8
+365,142,6,5,133,Preventive Care,Cancelled,2532.68,1
+366,99,1,2,293,Lab Test,Completed,16290.28,11
+367,53,5,5,11,Preventive Care,Completed,12010.2,3
+368,45,10,2,130,Emergency,Scheduled,17904.69,12
+369,71,7,3,236,Surgery,Completed,11827.44,11
+370,134,14,5,53,Consultation,Cancelled,24985.91,6
+371,144,11,5,145,Surgery,Cancelled,2970.18,2
+372,87,5,3,134,Preventive Care,Cancelled,23819.04,11
+373,77,4,5,124,Consultation,Cancelled,10281.23,6
+374,36,12,5,255,Surgery,Scheduled,22700.72,7
+375,100,12,5,363,Emergency,Completed,8776.23,12
+376,57,11,5,244,Preventive Care,Scheduled,12830.68,3
+377,143,3,1,242,Lab Test,Cancelled,6688.7,9
+378,47,11,1,114,Surgery,Completed,18681.99,5
+379,108,13,3,134,Emergency,Scheduled,11754.89,2
+380,121,1,5,298,Emergency,Completed,11963.83,4
+381,129,2,4,272,Surgery,Scheduled,1635.33,3
+382,36,4,5,292,Follow-up,Completed,8114.67,12
+383,47,13,1,171,Preventive Care,Completed,8041.33,1
+384,2,8,2,87,Emergency,Completed,12392.55,2
+385,34,10,5,220,Follow-up,Scheduled,24143.6,7
+386,2,1,2,192,Consultation,Scheduled,18994.14,9
+387,49,1,2,116,Preventive Care,Scheduled,8008.68,2
+388,99,9,4,86,Consultation,Completed,7665.6,5
+389,117,12,5,269,Surgery,Scheduled,22232.96,3
+390,88,15,3,97,Lab Test,Scheduled,772.38,4
+391,34,4,5,259,Lab Test,Completed,9354.81,11
+392,10,7,3,274,Emergency,Completed,14969.92,1
+393,28,11,1,354,Consultation,Scheduled,11274.56,2
+394,141,5,5,79,Lab Test,Cancelled,17237.78,1
+395,78,7,5,139,Emergency,Cancelled,17607.94,7
+396,27,9,1,145,Consultation,Completed,12594.15,10
+397,52,13,1,268,Lab Test,Scheduled,17674.89,5
+398,42,1,2,107,Preventive Care,Scheduled,8465.91,1
+399,4,11,5,57,Emergency,Cancelled,12504.37,2
+400,131,2,1,132,Preventive Care,Completed,11581.76,5
+401,68,8,2,90,Consultation,Scheduled,9197.3,11
+402,81,7,1,24,Consultation,Completed,16684.87,3
+403,85,6,5,138,Preventive Care,Completed,9503.77,6
+404,47,2,5,234,Surgery,Scheduled,17340.59,8
+405,108,11,2,58,Lab Test,Cancelled,18242.35,3
+406,27,7,4,292,Preventive Care,Scheduled,4777.14,7
+407,92,10,5,351,Preventive Care,Completed,12232.07,8
+408,29,15,3,24,Consultation,Scheduled,16477.85,1
+409,135,13,5,115,Preventive Care,Scheduled,13121.76,12
+410,25,7,2,247,Surgery,Cancelled,17004.5,7
+411,39,14,5,28,Consultation,Cancelled,23378.97,9
+412,121,14,1,85,Consultation,Scheduled,8219.66,6
+413,72,1,2,282,Preventive Care,Scheduled,10260.94,4
+414,21,8,2,294,Follow-up,Completed,21457.75,8
+415,81,2,1,53,Follow-up,Scheduled,1185.05,9
+416,1,14,1,310,Emergency,Cancelled,7823.57,9
+417,144,4,4,175,Surgery,Completed,20469.74,8
+418,85,9,5,243,Preventive Care,Cancelled,9273.38,8
+419,30,2,2,2,Surgery,Scheduled,20798.13,5
+420,141,9,4,55,Consultation,Completed,12462.83,12
+421,105,2,5,101,Lab Test,Completed,23276.34,7
+422,56,8,2,174,Consultation,Scheduled,1448.56,11
+423,32,13,4,338,Emergency,Cancelled,3625.51,8
+424,2,9,5,222,Emergency,Scheduled,23131.96,3
+425,149,3,2,54,Follow-up,Cancelled,15133.49,6
+426,130,15,3,312,Preventive Care,Completed,7057.82,6
+427,76,8,2,212,Emergency,Cancelled,22194.99,9
+428,77,14,3,365,Preventive Care,Cancelled,15924.81,4
+429,54,10,3,345,Lab Test,Cancelled,16357.13,3
+430,129,9,3,364,Consultation,Scheduled,14188.32,10
+431,147,11,5,147,Follow-up,Completed,13211.43,1
+432,98,3,1,29,Lab Test,Scheduled,18829.57,3
+433,74,11,5,32,Preventive Care,Scheduled,5338.82,9
+434,9,6,1,316,Preventive Care,Cancelled,14178.56,4
+435,144,7,4,357,Surgery,Cancelled,16712.99,7
+436,100,7,3,283,Consultation,Completed,18668.65,4
+437,114,14,1,325,Preventive Care,Cancelled,16296.52,10
+438,140,12,2,151,Follow-up,Completed,24591.3,2
+439,48,3,1,194,Consultation,Scheduled,7194.07,5
+440,34,3,1,131,Consultation,Scheduled,11818.38,3
+441,11,3,5,27,Preventive Care,Cancelled,21125.56,5
+442,126,13,1,184,Consultation,Cancelled,8151.12,4
+443,48,9,4,259,Lab Test,Scheduled,13714.08,7
+444,24,6,5,110,Preventive Care,Scheduled,8477.34,5
+445,56,13,4,288,Preventive Care,Completed,3133.63,6
+446,115,4,5,319,Lab Test,Completed,17159.02,6
+447,98,15,1,198,Surgery,Cancelled,18182.2,1
+448,133,14,5,261,Follow-up,Scheduled,1383.14,11
+449,50,6,5,50,Lab Test,Cancelled,13470.18,11
+450,17,4,2,351,Follow-up,Completed,5377.82,12
+451,112,11,1,352,Lab Test,Completed,11642.86,6
+452,10,2,5,92,Surgery,Cancelled,2039.92,4
+453,67,7,4,323,Follow-up,Scheduled,8115.18,7
+454,31,9,4,317,Consultation,Cancelled,14764.52,12
+455,19,6,1,149,Preventive Care,Scheduled,15282.18,5
+456,113,7,4,339,Consultation,Scheduled,4161.19,4
+457,35,12,5,280,Surgery,Cancelled,3858.67,11
+458,96,1,2,285,Lab Test,Completed,1331.8,10
+459,101,9,4,44,Surgery,Completed,18782.93,12
+460,89,4,5,331,Emergency,Completed,4275.57,4
+461,65,4,5,344,Emergency,Completed,21329.28,9
+462,119,11,5,149,Preventive Care,Completed,6491.98,4
+463,149,8,3,66,Preventive Care,Cancelled,6092.96,5
+464,18,15,3,249,Follow-up,Scheduled,15523.66,5
+465,150,3,1,187,Surgery,Scheduled,4465.4,6
+466,64,13,1,329,Follow-up,Scheduled,21050.72,3
+467,85,15,3,229,Surgery,Scheduled,12328.19,2
+468,45,11,3,72,Emergency,Completed,6801.9,11
+469,20,12,5,10,Emergency,Cancelled,1070.5,10
+470,149,7,2,19,Emergency,Scheduled,13723.69,9
+471,121,11,3,201,Lab Test,Cancelled,18410.7,5
+472,35,8,2,47,Follow-up,Scheduled,12703.53,11
+473,62,14,5,351,Lab Test,Cancelled,3767.16,3
+474,46,10,2,248,Surgery,Completed,5704.83,8
+475,60,2,5,120,Consultation,Cancelled,5407.32,6
+476,100,8,1,21,Preventive Care,Scheduled,2849.66,9
+477,71,14,5,279,Emergency,Completed,9603.49,7
+478,94,10,1,265,Surgery,Scheduled,24325.05,4
+479,133,7,4,177,Follow-up,Scheduled,22213.15,1
+480,129,15,3,85,Lab Test,Completed,13009.17,5
+481,55,3,1,186,Emergency,Cancelled,20478.79,11
+482,59,7,1,247,Preventive Care,Scheduled,12131.82,10
+483,42,11,1,125,Consultation,Completed,14465.12,3
+484,35,11,5,294,Lab Test,Completed,4408.63,3
+485,133,7,4,289,Preventive Care,Completed,21999.17,12
+486,73,2,5,311,Follow-up,Scheduled,4513.0,7
+487,37,13,1,94,Emergency,Cancelled,12916.88,3
+488,88,15,3,303,Consultation,Completed,9641.82,3
+489,28,1,2,259,Preventive Care,Scheduled,20714.9,10
+490,25,3,1,315,Emergency,Completed,21980.49,9
+491,129,13,1,247,Preventive Care,Completed,22579.02,9
+492,1,15,4,268,Follow-up,Scheduled,21908.16,12
+493,136,7,4,247,Follow-up,Scheduled,14849.49,12
+494,148,2,5,131,Follow-up,Completed,22779.11,2
+495,73,10,4,132,Lab Test,Completed,17815.98,1
+496,148,9,4,4,Follow-up,Cancelled,5373.84,6
+497,105,6,5,219,Preventive Care,Cancelled,6564.73,9
+498,109,10,5,142,Preventive Care,Scheduled,18947.81,7
+499,142,13,1,92,Surgery,Cancelled,14006.31,5
+500,79,10,5,362,Follow-up,Cancelled,3710.29,11

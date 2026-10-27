@@ -1,0 +1,5 @@
+-- Fact Constellation / Galaxy Schema
+-- Two fact tables share dimension tables:
+-- Fact_Patient_Visits: one row per patient visit
+-- Fact_Medication_Records: one row per medication record
+-- Shared dimensions: Dim_Patient, Dim_Doctor, Dim_Date

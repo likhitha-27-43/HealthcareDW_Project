@@ -1,0 +1,16 @@
+doctor_id,doctor_name,specialty,primary_hospital_id
+1,Dr. Ananya Sharma,Dermatology,2
+2,Dr. Meera Patel,Neurology,5
+3,Dr. Rohan Joshi,Cardiology,1
+4,Dr. Rohan Naidu,Pediatrics,5
+5,Dr. Pooja Sharma,Pediatrics,5
+6,Dr. Nisha Gupta,ENT,5
+7,Dr. Kiran Sharma,Orthopedics,4
+8,Dr. Sai Iyer,Orthopedics,2
+9,Dr. Sai Rao,Neurology,4
+10,Dr. Ananya Chowdary,General Medicine,5
+11,Dr. Kiran Reddy,ENT,5
+12,Dr. Ananya Mishra,Neurology,5
+13,Dr. Priya Chowdary,Pediatrics,1
+14,Dr. Diya Gupta,Dermatology,1
+15,Dr. Meera Rao,Oncology,3
